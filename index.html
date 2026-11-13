@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1 .align="center">Student Registration Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>First Name:</label>
+            <input type="text" name="firstname" placeholder="Enter first name">
+            <br><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lastname" placeholder="Enter last name">
+            <br><br>
+
+            <label>Father Name:</label>
+            <input type="text" name="fathername" placeholder="Enter father name">
+            <br><br>
+
+            <label>Write About Yourself:</label>
+            <br>
+            <textarea name="comments" rows="4" cols="35"
+            placeholder="Write your comments here"></textarea>
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Other Information</legend>
+
+            <b>Select Your Gender:</b>
+            <br>
+
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+
+            <br><br>
+
+            <b>Select Your Interests:</b>
+            <br>
+
+            <input type="checkbox" name="interest" value="Coding">
+            Coding
+
+            <input type="checkbox" name="interest" value="Designing">
+            Designing
+
+            <input type="checkbox" name="interest" value="Reading">
+            Reading
+
+            <br><br>
+
+            <label>Select Your Country:</label>
+            <br>
+
+            <select name="country">
+                <option>Pakistan</option>
+                <option>Turkey</option>
+                <option>China</option>
+                <option>Saudi Arabia</option>
+                <option>United Kingdom</option>
+            </select>
+
+            <br><br>
+
+            <label>Select Your City:</label>
+            <br>
+
+            <select name="city">
+                <option>Karachi</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Peshawar</option>
+                <option>Quetta</option>
+            </select>
+
+            <br><br>
+
+            <label>Upload Your Documents:</label>
+            <br>
+
+            <input type="file" name="document">
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label>Email Address:</label>
+            <br>
+            <input type="email" name="email"
+            placeholder="Enter your email">
+
+            <br><br>
+
+            <label>Contact Number:</label>
+            <br>
+            <input type="tel" name="phone"
+            placeholder="Enter phone number">
+
+            <br><br>
+
+            <label>Emergency Contact:</label>
+            <br>
+            <input type="tel" name="emergency"
+            placeholder="Enter another number">
+
+            <br><br>
+
+            <label>Date of Registration:</label>
+            <br>
+            <input type="date" name="date">
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" name="subscribe">
+        Subscribe to Our Website
+
+        <br><br>
+
+        <input type="submit" value="Register Now">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
